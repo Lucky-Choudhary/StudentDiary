@@ -18,8 +18,8 @@ const Landing = () => {
             <header className="w-full flex justify-center py-4">
                 {/* Adjusted header text color for light background */}
                 <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 tracking-tight">
-                    <span className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-neutral-600 to-blue-200">
-                        FriendBook
+                    <span className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-200">
+                        Student Diary
                     </span>
                 </h1>
             </header>
@@ -27,20 +27,19 @@ const Landing = () => {
                 <div className="text-center md:text-left space-y-4 sm:space-y-6">
                     <h1
                         // Adjusted main heading text color/gradient for light background
-                        className="p-3 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-neutral-600 to-blue-200"
+                        className="p-3 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-200"
                     >
-                        Connect.
+                        Write.
+                        <br />
+                        Store.
                         <br />
                         Remember.
-                        <br />
-                        Belong.
                     </h1>
                     <p
                         // Adjusted paragraph text color for light background
                         className="font-semibold text-lg sm:text-xl text-gray-700 min-w-xl max-w-2xl"
                     >
-                        Your digital college yearbook. Reconnect with classmates,
-                        cherish memories, and build a network that lasts a lifetime.
+                        This is a special place where friends can share their thoughts, memories, and fun facts about themselves. Fill in your details and leave a little note—whether it's your favorite quote, a funny moment, or a message to your future self. The admin can safely view and store all entries to keep the memories alive forever!
                     </p>
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
@@ -49,9 +48,9 @@ const Landing = () => {
                         <Button
                             variant="default"
                             size="lg"
-                            className="bg-gradient-to-r from-neutral-600 to-blue-200 text-white
-                                       hover:from-neutral-600 hover:to-neutral-500 px-6 sm:px-8 py-3 sm:py-4
-                                       rounded-full shadow-lg hover:shadow-xl transition-all duration-300
+                            className="bg-gradient-to-r from-orange-600 to-blue-200 text-white
+                                       hover:from-orange-600 hover:to-orange-500 px-6 sm:px-8 py-3 sm:py-4
+                                       rounded-sm shadow-lg hover:shadow-xl transition-all duration-300
                                        flex items-center gap-2"
                             onClick={()=>{
                                 router.push('/signup');
@@ -64,8 +63,8 @@ const Landing = () => {
                         <Button
                             variant="outline"
                             size="lg"
-                            className="text-slate-600 border-neutral-600 hover:bg-blue-200
-                                       px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-colors duration-200
+                            className="text-black border-orange-600 hover:bg-orange-600
+                                       px-6 sm:px-8 py-3 sm:py-4 rounded-sm duration-200
                                        flex items-center gap-2"
                             
                                        onClick={()=>{
@@ -83,7 +82,7 @@ const Landing = () => {
                 <div className="flex items-center justify-center gap-2 text-sm">
                     <Heart className="w-4 h-4" />
                     <span>
-                        Made by Omair, Oves, Husain
+                        Made by Lucky Choudhary
                     </span>
                 </div>
             </footer>

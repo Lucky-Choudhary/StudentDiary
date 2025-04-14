@@ -32,10 +32,10 @@ export default function AdminDashboardTable() {
   return (
     <div className="overflow-none">
       <div className="w-full flex justify-center m-5 ">
-      <h1 className="text-4xl font-bold">Admin Dashboard</h1>
+      <h1 className="text-black ext-4xl font-bold">Admin Dashboard</h1>
       </div>
     <Table>
-      <TableCaption>List of all the users in the dashboard.</TableCaption>
+      <TableCaption className="text-black">List of all the users in the dashboard.</TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-[100px]">Firstname</TableHead>

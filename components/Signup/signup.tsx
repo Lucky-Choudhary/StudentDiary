@@ -66,7 +66,7 @@ export function SignForm({
 
 
   return (
-    <div className={cn("flex flex-col gap-6", className)} {...props}>
+    <div className={cn(" flex flex-col gap-6", className)} {...props}>
       <Card>
         <CardHeader>
           <CardTitle>Signup to your account</CardTitle>

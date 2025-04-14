@@ -97,7 +97,7 @@ export default function ProfileForm() {
                 <FormItem>
                   <FormLabel>Firstname:</FormLabel>
                   <FormControl>
-                    <Input placeholder="Firstname" {...field} />
+                    <Input className='text-black' placeholder="Firstname" {...field} />
                   </FormControl>
 
                   <FormMessage />

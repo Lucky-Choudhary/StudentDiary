@@ -12,7 +12,7 @@ export default function LandRouter(){
                 router.push("/landing-page")
                 localStorage.setItem('token' , "");
             }
-        } className="hover:bg-neutral-100  mt-0 mx-2 m-1 p-1 pb-2 border-1 border-neutral-500 rounded-sm " >
+        } className="text-black hover:bg-orange-300  mt-0 mx-2 m-1 p-1 pb-2 border-1 border-neutral-500 rounded-sm " >
             Logout
         </button>
     )
