@@ -39,7 +39,7 @@ const Landing = () => {
                         // Adjusted paragraph text color for light background
                         className="font-semibold text-lg sm:text-xl text-gray-700 min-w-xl max-w-2xl"
                     >
-                        This is a special place where friends can share their thoughts, memories, and fun facts about themselves. Fill in your details and leave a little note—whether it's your favorite quote, a funny moment, or a message to your future self. The admin can safely view and store all entries to keep the memories alive forever!
+                        {"This is a special place where friends can share thoughts, memories and fun facts. Fill in your details and leave a note - share a favorite quote, a fun moment or a message. The admin will safely store all entries to preserve memories for years to come."}
                     </p>
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
