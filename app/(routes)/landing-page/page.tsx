@@ -82,7 +82,7 @@ const Landing = () => {
                 <div className="flex items-center justify-center gap-2 text-sm">
                     <Heart className="w-4 h-4" />
                     <span>
-                        Made by Lucky Choudhary
+                        Made by Lucky Choudhary, Sujal Purohit and Hardik jain
                     </span>
                 </div>
             </footer>
