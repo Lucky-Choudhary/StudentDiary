@@ -3,7 +3,6 @@ import axios from "axios";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -13,7 +12,6 @@ import { useEffect, useState } from "react";
 import { formSchemaType } from "./user-dashboard";
 import { Search, Users, Loader2 } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
 
 export default function AdminDashboardTable() {
   const [userArray, setUserArray] = useState<formSchemaType[]>([]);
