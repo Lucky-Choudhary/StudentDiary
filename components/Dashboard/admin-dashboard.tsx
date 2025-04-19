@@ -54,17 +54,6 @@ export default function AdminDashboardTable() {
     );
   });
 
-  const getRowTextColor = (status?: 'normal' | 'accepted' | 'rejected' | 'deleted') => {
-    switch (status) {
-      case 'accepted':
-        return 'text-green-600';
-      case 'rejected':
-        return 'text-red-600';
-      default:
-        return 'text-foreground';
-    }
-  };
-
   return (
     <div className="p-6 space-y-6 bg-black min-h-screen">
       {/* Header Section with updated colors */}
