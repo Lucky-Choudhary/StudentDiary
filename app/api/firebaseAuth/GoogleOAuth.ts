@@ -22,7 +22,7 @@ export default async function OAuth() {
     } else {
       console.log("OAuth signin failed");
       return { userId: null };
-    }
+    } 
   } catch (error) {
     if (error instanceof FirebaseError && error.customData) {
       const errorCode = error.code;
